@@ -20,5 +20,6 @@ This project implements a simple hash function in Verilog HDL, compressing a 16-
 ## How to Compile & Simulate
 
 Run these commands in your terminal to compile, simulate, and view waveforms(Icarus Verilog):
+```sh
 iverilog -o simv tb.v code.v && vvp simv
 gtkwave SimpleHash.vcd &
